@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nightly Build — Links</title>
+<meta name="description" content="Shop Nightly Build. Clothing for people who ship past midnight.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://link.courtrightco.com/nb">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230A0F17'/><text x='50' y='68' font-family='Menlo,monospace' font-size='42' font-weight='700' fill='%238DC63F' text-anchor='middle'>NB</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--void:#0A0F17;--ash:#141B24;--terminal:#8DC63F;--amber:#F0B840;--parchment:#E6EDF3;--body:'Outfit',sans-serif;--mono:'JetBrains Mono','SF Mono',Menlo,monospace;--display:'Cormorant Garamond',Georgia,serif;}
+body{
+  font-family:var(--body);
+  background:
+    radial-gradient(ellipse 90% 60% at 50% 0%, rgba(141,198,63,0.14) 0%, transparent 60%),
+    var(--void);
+  color:var(--parchment);min-height:100vh;padding:2.5rem 1.25rem 3rem;
+  display:flex;flex-direction:column;align-items:center;-webkit-font-smoothing:antialiased;
+  position:relative;overflow-x:hidden;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(141,198,63,0.03) 1px, transparent 1px);
+  background-size:100% 4px;
+  z-index:0;
+}
+.wrap{width:100%;max-width:520px;text-align:center;position:relative;z-index:1}
+.top-nav{align-self:flex-start;width:100%;text-align:left;margin-bottom:1.5rem}
+.back{color:rgba(230,237,243,0.55);text-decoration:none;font-family:var(--mono);font-size:0.8rem}
+.back:hover{color:var(--terminal)}
+.avatar{
+  width:112px;height:112px;border-radius:18px;margin:0 auto 1.25rem;
+  background:var(--ash);border:1px solid rgba(141,198,63,0.25);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-weight:700;font-size:2.2rem;color:var(--terminal);
+  box-shadow:0 12px 40px rgba(141,198,63,0.18);
+}
+h1{font-family:var(--mono);font-weight:700;font-size:1.6rem;letter-spacing:0.02em;margin-bottom:0.4rem;line-height:1.1;color:var(--terminal)}
+h1 span{color:var(--parchment)}
+.handle{color:var(--terminal);font-family:var(--mono);font-size:0.8rem;letter-spacing:0.06em;margin-bottom:0.75rem}
+.bio{color:rgba(230,237,243,0.7);font-size:0.98rem;line-height:1.55;max-width:400px;margin:0 auto 2rem;font-family:var(--body)}
+
+.term-line{
+  font-family:var(--mono);font-size:0.78rem;color:rgba(230,237,243,0.5);
+  margin:0 auto 2rem;text-align:left;max-width:400px;
+  background:var(--ash);padding:0.5rem 0.8rem;border-radius:6px;border:1px solid rgba(255,255,255,0.06);
+}
+.term-line .prm{color:var(--terminal)}
+.term-line .cur{display:inline-block;width:8px;background:var(--terminal);margin-left:2px;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+
+.section{margin-top:2rem;margin-bottom:0.75rem;font-family:var(--mono);color:var(--terminal);font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;text-align:left}
+.section::before{content:'// '}
+.links{display:flex;flex-direction:column;gap:0.7rem}
+.link{
+  display:flex;align-items:center;gap:0.9rem;
+  background:rgba(20,27,36,0.7);border:1px solid rgba(141,198,63,0.16);
+  border-radius:8px;padding:0.95rem 1.15rem;
+  color:var(--parchment);text-decoration:none;transition:all 0.2s ease;
+}
+.link:hover{background:rgba(141,198,63,0.08);border-color:var(--terminal);transform:translateY(-2px);box-shadow:0 8px 22px rgba(141,198,63,0.14)}
+.link.primary{background:var(--terminal);border-color:var(--terminal);color:var(--void);font-weight:600}
+.link.primary:hover{background:#A5D65C;border-color:#A5D65C;box-shadow:0 8px 22px rgba(141,198,63,0.35)}
+.icon{width:28px;flex-shrink:0;text-align:center;font-family:var(--mono);font-size:1rem;opacity:0.85}
+.txt{flex:1;text-align:left;font-weight:500;font-size:0.95rem;letter-spacing:0.01em}
+.arrow{opacity:0.35;font-family:var(--mono);font-size:1rem}
+.link:hover .arrow{opacity:1;color:var(--terminal)}
+.link.primary .arrow{color:var(--void);opacity:0.6}
+
+.socials{display:grid;grid-template-columns:repeat(4,1fr);gap:0.6rem;margin-top:1rem}
+.social{
+  aspect-ratio:1;border-radius:8px;
+  background:rgba(20,27,36,0.7);border:1px solid rgba(141,198,63,0.16);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--parchment);text-decoration:none;font-family:var(--mono);font-size:0.85rem;font-weight:600;
+  transition:all 0.2s ease;
+}
+.social:hover{background:var(--terminal);border-color:var(--terminal);color:var(--void);transform:translateY(-2px)}
+
+.footer{color:rgba(230,237,243,0.35);font-family:var(--mono);font-size:0.72rem;margin-top:2.5rem}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="top-nav"><a href="/" class="back">&larr; ../</a></div>
+  <div class="avatar">NB</div>
+  <h1>Nightly<span>Build</span></h1>
+  <div class="handle">$ ./nightlybuild</div>
+  <p class="bio">Clothing for people who ship past midnight. Small drops. Real shirts. No dropshipped nonsense.</p>
+
+  <div class="term-line">
+    <span class="prm">~/nightlybuild $</span> ls links.<span class="cur"></span>
+  </div>
+
+  <div class="links">
+    <a href="https://nightlybuild.courtrightco.com" class="link primary">
+      <div class="icon">&#9660;</div>
+      <div class="txt">Shop the current drop</div>
+      <div class="arrow">&rsaquo;</div>
+    </a>
+    <a href="https://nightlybuild.courtrightco.com" class="link">
+      <div class="icon">&#9673;</div>
+      <div class="txt">nightlybuild.courtrightco.com</div>
+      <div class="arrow">&rsaquo;</div>
+    </a>
+    <a href="#" class="link">
+      <div class="icon">&#9993;</div>
+      <div class="txt">Get drop notifications</div>
+      <div class="arrow">&rsaquo;</div>
+    </a>
+  </div>
+
+  <div class="section">Follow</div>
+  <div class="socials">
+    <a href="mailto:info@courtrightco.com" class="social" title="Email">&#9993;</a>
+    <a href="#" class="social" title="Instagram">IG</a>
+    <a href="#" class="social" title="TikTok">TT</a>
+    <a href="#" class="social" title="X / Twitter">X</a>
+  </div>
+
+  <div class="footer">
+    &copy; 2026 Nightly Build &middot; A Courtright Collective brand
+  </div>
+</div>
+
+</body>
+</html>
