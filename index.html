@@ -60,7 +60,7 @@ h1 em{color:var(--gold);font-style:italic}
   display:flex;align-items:center;justify-content:center;
   position:relative;overflow:hidden;
 }
-.link .badge svg{position:relative;z-index:1;display:block}
+.link .badge img{position:relative;z-index:1;display:block;width:80%;height:80%;object-fit:contain}
 .link .badge::before{
   content:'';position:absolute;inset:0;pointer-events:none;
 }
@@ -109,11 +109,7 @@ h1 em{color:var(--gold);font-style:italic}
 
   <div class="links">
     <a href="/cc" class="link link-cc">
-      <div class="badge b-cc">
-        <svg width="30" height="30" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-          <text x="20" y="30" font-family="Cormorant Garamond, Georgia, serif" font-size="34" font-weight="300" fill="#C45C28" text-anchor="middle" letter-spacing="-0.02em">C</text>
-        </svg>
-      </div>
+      <div class="badge b-cc"><img src="/logos/cc.svg" alt="Courtright Collective"></div>
       <div class="txt">
         <div class="ttl">Courtright Collective</div>
         <div class="sub">Websites, apps, and AI business tools</div>
@@ -122,55 +118,34 @@ h1 em{color:var(--gold);font-style:italic}
     </a>
 
     <a href="/tt" class="link link-tt">
-      <div class="badge b-tt">
-        <svg width="34" height="30" viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg">
-          <text x="25" y="30" font-family="Cormorant Garamond, Georgia, serif" font-size="28" font-weight="600" fill="#D9A030" text-anchor="middle" font-style="italic" letter-spacing="-0.03em">tt</text>
-        </svg>
-      </div>
+      <div class="badge b-tt"><img src="/logos/tt.png" alt="TinkerTaps"></div>
       <div class="txt">
         <div class="ttl">TinkerTaps</div>
-        <div class="sub">Parenting keepsakes, books, and quiet toys</div>
+        <div class="sub">Calm, sensory, safe screen time for toddlers and babies, books, and their art on a shirt.</div>
       </div>
       <div class="arrow">&rsaquo;</div>
     </a>
 
     <a href="/t" class="link link-t">
-      <div class="badge b-t">
-        <svg width="26" height="30" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-          <text x="20" y="32" font-family="Cormorant Garamond, Georgia, serif" font-size="38" font-weight="600" fill="#F0B840" text-anchor="middle" font-style="italic">T</text>
-        </svg>
-      </div>
+      <div class="badge b-t"><img src="/logos/trivd.png" alt="Trivd"></div>
       <div class="txt">
         <div class="ttl">Trivd</div>
-        <div class="sub">AI-powered trivia for the app and the table</div>
+        <div class="sub">Trivia night on the go, daily challenge, group play.</div>
       </div>
       <div class="arrow">&rsaquo;</div>
     </a>
 
     <a href="/a2g" class="link link-a2g">
-      <div class="badge b-a2g">
-        <svg width="36" height="30" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 30 L20 8 L28 30" stroke="#D9A030" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M14.5 22 L25.5 22" stroke="#D9A030" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M36 30 L44 8" stroke="#D9A030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-          <path d="M40 12 L44 8 L48 12" stroke="#D9A030" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
+      <div class="badge b-a2g"><img src="/logos/a2g.svg" alt="AimToGro"></div>
       <div class="txt">
         <div class="ttl">AimToGro</div>
-        <div class="sub">The revenue OS for small business</div>
+        <div class="sub">AI employees for businesses ready to hire but can&rsquo;t afford to.</div>
       </div>
       <div class="arrow">&rsaquo;</div>
     </a>
 
     <a href="/nb" class="link link-nb">
-      <div class="badge b-nb">
-        <svg width="36" height="24" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
-          <text x="8" y="30" font-family="JetBrains Mono, Menlo, monospace" font-size="20" font-weight="700" fill="#8DC63F">&lt;</text>
-          <text x="30" y="27" font-family="JetBrains Mono, Menlo, monospace" font-size="14" font-weight="700" fill="#8DC63F" text-anchor="middle">NB</text>
-          <text x="44" y="30" font-family="JetBrains Mono, Menlo, monospace" font-size="20" font-weight="700" fill="#8DC63F">/&gt;</text>
-        </svg>
-      </div>
+      <div class="badge b-nb"><img src="/logos/nb.png" alt="Nightly Build"></div>
       <div class="txt">
         <div class="ttl">Nightly Build</div>
         <div class="sub">Clothing for people who ship past midnight</div>
