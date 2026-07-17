@@ -1,0 +1,14 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <title>RateTamer</title>
+  <!-- A percent sign, tamed: the slash is a lasso rope with an open loop, the lower dot is the recovered coin -->
+  <!-- upper ring of the % -->
+  <circle cx="13" cy="13" r="6.5" fill="none" stroke="#1B2A4A" stroke-width="4"/>
+  <!-- lasso rope as the % slash -->
+  <path d="M11.5 36.5 C17 31.5 22.5 26 27 21.5 C29.2 19.3 30.8 17.4 32.7 15.3"
+        fill="none" stroke="#F59E0B" stroke-width="3.4" stroke-linecap="round"/>
+  <!-- the open lasso loop at the throwing end -->
+  <circle cx="36.5" cy="11.5" r="5.5" fill="none" stroke="#F59E0B" stroke-width="3.4"/>
+  <!-- lower dot of the %: the coin -->
+  <circle cx="35" cy="35" r="7.75" fill="#16A34A"/>
+  <circle cx="35" cy="35" r="7.75" fill="none" stroke="#15803D" stroke-width="1.5"/>
+</svg>
