@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="AllOneTap">
+  <!-- A link-in-bio page reduced to its silhouette: the avatar, then the buttons.
+       The circle is what stops the stack reading as a hamburger menu. Colours are
+       solid rather than opacity-faded, so the muted pill stays navy instead of
+       turning grey. -->
+  <rect width="512" height="512" rx="116" fill="#0E2436"/>
+  <circle cx="256" cy="146" r="54" fill="#EAF3F1"/>
+  <rect x="112" y="242" width="288" height="66" rx="33" fill="#46C8E6"/>
+  <rect x="112" y="332" width="288" height="66" rx="33" fill="#3C6580"/>
+</svg>
